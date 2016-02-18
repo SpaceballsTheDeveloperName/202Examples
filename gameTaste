@@ -1,0 +1,10 @@
+<?php
+$games = array("RPGs", "Strategy", "MOBAs");
+function gameTaste() {
+  echo "I like these types of games:";
+  foreach ($games as $values) {
+    echo "$value <br>";
+    }
+}
+gameTaste();
+?>
